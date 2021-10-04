@@ -50,6 +50,9 @@
 .sj-paddingLeft20{
   padding-left:20px;
 }
+.sj-paddingLeft15{
+  padding-left:15px;
+}
 
 .sj-text {
   font-family: "Raleway", sans-serif;
@@ -168,7 +171,7 @@
 }
 
 @media screen and (max-width: 991px) {
-  .sj-paddingLeft20{
+  .sj-paddingLeft20, .sj-paddingLeft15{
   padding-left:0px;
 }
   .sj-text_right {
@@ -180,6 +183,10 @@
   }
   .sj-table {
     margin-top: 20px;
+  }
+  
+  .sj-table_noMobileMargin{
+    margin-top: 0px;
   }
   .sj-squareImage {
     height: 500px;
